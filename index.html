@@ -1,1 +1,91 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="header">
+        <div class="menu-icon">
+          <img class="menuimage" src="/src/images/home.png" width="50" />
+        </div>
+        <div class="logo">
+          <div class="logoimage">
+            <img src="/src/images/icontodo.png" width="100%" />
+          </div>
+          <div class="logotext"><span>What</span>ToDo</div>
+        </div>
+      </div>
+      <div class="sidebar">
+        <div class="sidebartitle">Main Projects</div>
+        <div class="mainboxes">
+          <div class="text">General</div>
+          <div><img src="/src/images/general.png" width="40" /></div>
+        </div>
+        <div class="mainboxes">
+          <div class="text">Important</div>
+          <div><img src="/src/images/star.png" width="40" /></div>
+        </div>
+        <div class="mainboxes">
+          <div class="text">Today</div>
+          <div><img src="/src/images/today.png" width="40" /></div>
+        </div>
+        <div class="mainboxes">
+          <div class="text">Next 7 days</div>
+          <div><img src="/src/images/7days.png" width="40" /></div>
+        </div>
+        <div class="sidebartitle">Projects</div>
+
+       
+        <div class="addproject">
+          <div><img src="/src/images/plus.jpg" width="30" /></div>
+          <div><span>Add Project</span></div>
+        </div>
+      </div>
+      <div class="main-interface">
+        <div  class="addform">
+          <div class="box">
+          <label for="checklist">Check?</label>
+          <input type="checkbox" name="checklist" id="checklist">
+        </div>
+        <div class="box">
+          <label for="Title">Title:</label>
+          <input type="text" placeholder="Enter a title" name="title" id="title" >
+          </div>
+          <div class="box">
+          <label for="duedate">Duedate:</label>
+          <input type="date" name="duedate" id="duedate" >
+        </div>
+        <div class="box">
+          Priority:<select name="priority" id="priority" >
+            <option value="Highest">Highest</option>
+            <option value="Critical">Critical</option>
+            <option value="Alarming">Alarming</option>
+            <option value="Low">Low</option>
+          </select>
+        </div>
+        <div class="box">
+          Description:<input type="text" name="description" id="description" required></input>        
+      </div>
+    <div class="box">
+<button class="addbutton">Add</button>
+    </div>
+    <div class="box">
+      <button class="cancelbutton">Cancel</button>
+      </div>
+      
+      </div>
+        
+        <div class="addtask">
+          <div><img src="/src/images/plus1.png" width="30" /></div>
+          <div><span>Add Task</span></div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </body>
+</html>
